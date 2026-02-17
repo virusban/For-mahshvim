@@ -5,7 +5,7 @@ from pygame.locals import *
 pygame.init()
 surface = pygame.display.set_mode((640, 480))
 
-ball = pygame.image.load("pydroball.png")
+ball = pygame.image.load("ball.png")
 ballrect = ball.get_rect()
 clock = pygame.time.Clock()
 
